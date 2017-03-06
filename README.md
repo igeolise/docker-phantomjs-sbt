@@ -1,5 +1,5 @@
 ### Supported tags and respective `Dockerfile` links
 
--	[`1.0.2` (*Dockerfile*)](https://github.com/igeolise/docker-phantomjs-sbt/blob/master/Dockerfile)
+-	[`1.1.0` (*Dockerfile*)](https://github.com/igeolise/scalajs-test-runner/blob/master/Dockerfile)
 
-[Repository on Docker Hub](https://hub.docker.com/r/igeolise/phantomjs-sbt)
+[Repository on Docker Hub](https://hub.docker.com/r/igeolise/scalajs-test-runner)
