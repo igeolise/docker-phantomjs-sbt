@@ -1,5 +1,7 @@
 FROM igeolise/sbt:0.13.12-openjdk-8
 
+ENV SBT_OPTS="-Xmx4g"
+
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash -
 
 RUN apt-get update && \
