@@ -1,4 +1,4 @@
-FROM igeolise/sbt:0.13.12-openjdk-8
+FROM igeolise/sbt:1.1.2-openjdk-8
 
 ENV SBT_OPTS="-Xmx4g"
 
