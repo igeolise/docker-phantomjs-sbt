@@ -1,4 +1,4 @@
-FROM igeolise/sbt:1.1.2-openjdk-8
+FROM igeolise/sbt:1.2.6-openjdk-8
 
 ENV SBT_OPTS="-Xmx4g"
 
@@ -14,7 +14,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends git && \
     rm -rf /var/lib/apt/lists/*
 
-RUN npm install jsdom@11.1.0
+RUN npm install jsdom@11.12.0
 
 RUN curl -sS -o /tmp/chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/2.25/chromedriver_linux64.zip && \
 	mkdir /opt/google && \
